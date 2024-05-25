@@ -9,7 +9,7 @@ not hard, but I highly recommend you read the [Debian Maintainers build guide][5
     $ git clone https://github.com/BMoneyFlash/dvbhdhomerun
     $ cd dvbhdhomerun && dpkg-buildpackage -b -d
     $ cd ..
-    $ sudo dpkg -i <builtpackages>.deb
+    $ sudo dpkg -i dvbhdhomerun-source*.deb dvbhdhomerun-utils*.deb dvbhdhomerun-dkms*.deb
 
 [1]: http://silicomdust.com/
 [2]: http://www.silicondust.com/support/hdhomerun/downloads/linux/
