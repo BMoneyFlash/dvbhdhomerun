@@ -3,4 +3,4 @@ obj-$(CONFIG_DVB_HDHOMERUN) += dvb_hdhomerun.o
 
 obj-$(CONFIG_DVB_HDHOMERUN) += dvb_hdhomerun_core.o
 
-EXTRA_CFLAGS += -Idrivers/media/dvb/dvb-core/ -Idrivers/media/dvb/frontends
+EXTRA_CFLAGS += -Imedia
