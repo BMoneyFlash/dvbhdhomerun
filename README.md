@@ -7,7 +7,7 @@ Only package sources are provided.  You must build the DEB's yourself.  It's
 not hard, but I highly recommend you read the [Debian Maintainers build guide][5].
 
     $ git clone https://github.com/BMoneyFlash/dvbhdhomerun
-    $ cd dvbhdhomerun && dpkg-buildpackage -b
+    $ cd dvbhdhomerun && dpkg-buildpackage -b -d
     $ cd ..
     $ dpkg -i <builtpackages>.deb
 
