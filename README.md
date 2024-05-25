@@ -6,7 +6,7 @@ quality information from the hdhomerun library.*
 Only package sources are provided.  You must build the DEB's yourself.  It's
 not hard, but I highly recommend you read the [Debian Maintainers build guide][5].
 
-    $ git clone https://github.com/h0tw1r3/dvbhdhomerun
+    $ git clone https://github.com/BMoneyFlash/dvbhdhomerun
     $ cd dvbhdhomerun && dpkg-buildpackage -b
     $ cd ..
     $ dpkg -i <builtpackages>.deb
