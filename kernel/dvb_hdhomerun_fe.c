@@ -266,7 +266,7 @@ static struct dvb_frontend_ops dvb_hdhomerun_fe_ofdm_ops = {
 #endif
         .info = {
                 .name                   = "HDHomeRun DVB-T",
-                .type                   = FE_OFDM,
+                //.type                   = FE_OFDM,
                 .frequency_stepsize_hz  = 62500,
                 .frequency_min_hz       = 50500000,
                 .frequency_max_hz       = 862000000,
@@ -328,7 +328,7 @@ static struct dvb_frontend_ops dvb_hdhomerun_fe_qam_ops = {
 #endif
 	.info = {
 		.name			= "HDHomeRun DVB-C",
-		.type			= FE_QAM,
+		//.type			= FE_QAM,
 		.frequency_stepsize_hz	= 62500,
 		.frequency_min_hz	= 51000000,
 		.frequency_max_hz	= 858000000,
@@ -390,7 +390,7 @@ static struct dvb_frontend_ops dvb_hdhomerun_fe_atsc_ops = {
 #endif
 	.info = {
 		.name			= "HDHomeRun ATSC",
-		.type			= FE_ATSC,
+		//.type			= FE_ATSC,
 		.frequency_stepsize_hz	= 62500,
 		.frequency_min_hz	= 54000000,
 		.frequency_max_hz	= 858000000,
