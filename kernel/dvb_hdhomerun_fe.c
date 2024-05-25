@@ -1,4 +1,4 @@
-a/*
+/*
  * dvb_hdhomerun_fe.c, skeleton driver for the HDHomeRun devices
  *
  * Copyright (C) 2010 Villy Thomsen <tfylliv@gmail.com>
